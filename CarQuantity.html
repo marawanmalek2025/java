@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+  <body>
+           
+ <button onclick=
+                " console.log(`CarQuantity:${CarQuantity}`);">Show Quantity</button>
+            <button onclick="
+                 CarQuantity +=1;
+                     console.log(`CarQuantity: ${CarQuantity}`);
+            ">Add to cart</button>
+            <button onclick="
+                     CarQuantity += 2;
+                         console.log(`CarQuantity: ${CarQuantity}`);
+           " >+2</button>
+            <button onclick="
+                       CarQuantity += 3;
+                         console.log(`CarQuantity: ${CarQuantity}`);
+            ">+3</button>
+            <button onclick="
+                  CarQuantity=0;
+                     console.log(`car was empty`);
+                          console.log(`CarQuantity:${CarQuantity}`);
+            "
+            >rest car</button>
+            
+
+            <script>
+                let CarQuantity=0;
+            </script>
+        </body>
+        
+      
+</html>
